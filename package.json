@@ -1,0 +1,20 @@
+{
+  "name": "sahifa",
+  "version": "1.0.0",
+  "description": "Arabic-ready HTML to PDF and screenshot API client, hosted in Saudi Arabia (Sahifa)",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["pdf", "html-to-pdf", "arabic", "rtl", "screenshot", "zatca", "invoice", "saudi-arabia", "puppeteer-alternative", "pdfshift"],
+  "homepage": "https://sahifa.dev/en/docs",
+  "repository": { "type": "git", "url": "git+https://github.com/gyorgy-gulyas/sahifa-node.git" },
+  "bugs": { "url": "https://github.com/gyorgy-gulyas/sahifa-node/issues" },
+  "author": "Yimello LLC <support@sahifa.dev> (https://sahifa.dev)",
+  "license": "MIT"
+}
